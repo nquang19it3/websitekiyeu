@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #1ba085;
+  margin-top: 2rem;
+}
+.gallery {
+  margin: 2rem 3rem;
+}
+.gallery img {
+  max-width: 230px;
+  padding: 0.3rem;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+.gallery a {
+  cursor: pointer;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #1ba085;
+}
+.topnav a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem 0.7rem;
+  color: #fff;
+}
+a.active {
+  color: #000;
+}
+.topnav a:hover {
+  color: #000;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+/* Members */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+  margin: auto;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+.card a:hover {
+  opacity: 0.7;
+}
